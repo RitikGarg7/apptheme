@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+span{
+    color:#56a79a;
+}
+.container1{
+    text-align: center;
+    /* flex-direction: column;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+.showcase{
+    height:100vh;
+    width:100%;
+    background-image: url(../images/showcase.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.showcase h1 {
+    font-size: 50px;
+    margin: 0;
+    /* padding-bottom: 20px; */
+}
+
+.features1{
+    text-align: center;
+    margin:0 auto;
+}
+.features1 h1 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+.features1 p {
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.features1 .fa {
+    font-size: 60px;
+    color: #56a79a;
+}
+.features1 h4 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.boxy{
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.features2{
+    background-image: url(../images/info-bg.jpg);
+    /* height:60vh; */
+    width:100%;
+    color: #fff;
+
+}
+.features2 li {
+    line-height: 2em;
+    font-size: 20px;
+}
+.features2 h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.fe{
+    padding:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nokia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iphone{
+    width:400px;
+    text-align: center;
+}
+
+.details{
+    background-image: url(../images/adult-coding-connection-1181677.jpg);
+    opacity: 0.4;
+    color: #000;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* height:80vh; */
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: #000;
+}
+.details .row{
+    width:80%;
+    margin :0 auto;
+   
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+    background: #56a79a;
+}
+.copyright p{
+    margin-bottom: 0;
+}
+
+.alto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:40%;
+    color: #000000;
+    background-color: #56a79a;
+    padding-top: 20px;
+}
+.alto p{
+    text-align: center;
+}
+
+.alto:nth-child(3){
+    padding-bottom: 20px;
+}
+
+input::placeholder{
+    text-align: center;
+}
